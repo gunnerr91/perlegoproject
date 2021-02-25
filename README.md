@@ -1,3 +1,5 @@
+run `npm install` in both the `<root>\spa_app` and `<root>\api` folders
+
 using node command `npm start` from `<root>\spa_app` should start the application in the default port of 3000: http://localhost:3000
 
 in order to run all the test use node command `npm test` from `<root>\spa_app`
