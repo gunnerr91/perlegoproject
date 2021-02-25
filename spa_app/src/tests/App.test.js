@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
-import App, { booksYouMightLike } from "./App";
-import Book from "./Book";
-import Banner from "./Banner";
+import App, { booksYouMightLike } from "../App";
+import Book from "../components/Book";
+import Banner from "../components/Banner";
 
 const bookObjectToAssert = {
   expectedTitle: "expectedTitle",
@@ -10,7 +10,7 @@ const bookObjectToAssert = {
   expectedLocation: "expectedLocation/"
 };
 
-jest.mock("./useFetch", () => () => ({
+jest.mock("../useFetch", () => () => ({
   books: [
     {
       location: bookObjectToAssert.expectedLocation,

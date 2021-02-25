@@ -1,7 +1,7 @@
 import { localhost } from "./constants";
-import "./App.css";
-import Banner from "./Banner";
-import Book from "./Book";
+import "./styles/App.css";
+import Banner from "./components/Banner";
+import Book from "./components/Book";
 import useFetch from "./useFetch";
 
 export const booksYouMightLike = "Books you might like";

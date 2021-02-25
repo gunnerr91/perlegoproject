@@ -1,5 +1,5 @@
 import { render } from "enzyme";
-import Book, { getCoverLocation } from "./Book";
+import Book, { getCoverLocation } from "../components/Book";
 
 describe("Book component", () => {
   const expectedAuthor = "author";

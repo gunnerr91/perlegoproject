@@ -1,5 +1,5 @@
 import { shallow } from "enzyme";
-import Banner from "./Banner";
+import Banner from "../components/Banner";
 
 describe("Banner component", () => {
   it("renders the correct title when all books are laoded", () => {

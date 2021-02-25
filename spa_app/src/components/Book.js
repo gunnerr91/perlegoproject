@@ -1,4 +1,4 @@
-import "./book.css";
+import "../styles/book.css";
 
 export const getCoverLocation = (location, coverFile) =>
   `https://www.perlego.com/${location}${coverFile}`;
